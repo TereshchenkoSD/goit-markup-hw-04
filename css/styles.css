@@ -324,8 +324,8 @@ address {
 .team-text-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 59px;
-  padding-right: 59px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .team-list-title {
@@ -349,6 +349,21 @@ address {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
 }
 
 /* ============END OUR TEAM============= */
