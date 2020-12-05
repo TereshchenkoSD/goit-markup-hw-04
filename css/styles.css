@@ -6,6 +6,7 @@
   --primary-bg-color: rgba(47, 48, 58, 1);
   --secondary-bg-color: rgba(255, 255, 255, 1);
   --tertiary-bg-color: rgba(245, 244, 250, 1);
+  --social-link-color: rgb(175, 177, 184);
 }
 
 *,
@@ -364,6 +365,19 @@ address {
 
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+
+  color: var(--social-link-color);
+}
+
+.social-list-icon {
+  fill: currentColor;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+  color: var(--tertiary-text-color);
 }
 
 /* ============END OUR TEAM============= */
