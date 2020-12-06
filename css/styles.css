@@ -6,7 +6,7 @@
   --primary-bg-color: rgba(47, 48, 58, 1);
   --secondary-bg-color: rgba(255, 255, 255, 1);
   --tertiary-bg-color: rgba(245, 244, 250, 1);
-  --social-link-color: rgb(175, 177, 184);
+  --primary-link-color: rgb(175, 177, 184, 1);
 }
 
 *,
@@ -365,7 +365,7 @@ address {
   height: 44px;
   border-radius: 50%;
 
-  color: var(--social-link-color);
+  color: var(--primary-link-color);
 }
 
 .social-list-icon {
@@ -400,23 +400,34 @@ address {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  outline: tomato;
 }
 
 .clients-list {
   display: flex;
   justify-content: space-around;
-  outline: tomato;
-}
-
-.clients-list-item {
-  outline: 1px solid tomato;
 }
 
 .clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 90px;
-  outline: tomato;
+  border: 1px solid var(--primary-link-color);
+  border-radius: 4px;
+
+  color: var(--primary-link-color);
+}
+
+.clients-list-icon {
+  fill: currentColor;
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* ============END CLIENTS============== */
