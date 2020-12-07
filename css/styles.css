@@ -7,6 +7,7 @@
   --secondary-bg-color: rgba(255, 255, 255, 1);
   --tertiary-bg-color: rgba(245, 244, 250, 1);
   --primary-link-color: rgb(175, 177, 184, 1);
+  --bg-link-color: rgba(255, 255, 255, 0.1);
 }
 
 *,
@@ -580,4 +581,39 @@ address {
 .white-text {
   color: var(--tertiary-text-color);
 }
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-container {
+  margin-right: 70px;
+}
+
+.social-container {
+  width: 206px;
+}
+
+.join-text {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: var(--tertiary-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social-container .social-list {
+  justify-content: space-between;
+}
+
+.bg-grey {
+  background-color: var(--bg-link-color);
+}
+
 /* ============END FOOTER============= */
